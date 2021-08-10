@@ -108,4 +108,3 @@ async def whitelist_func(_, message: Message):
         )
     whitelist_user(id)
     return await message.reply_text(f"Whitelisted {user.mention}")
-© 2021 GitHub, Inc.
